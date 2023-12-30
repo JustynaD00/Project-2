@@ -1,0 +1,89 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: Booking_cruise
+  examples: |
+   - I would like to book a cruise
+   - I want to go on a cruise
+   - Book a cruise
+   - Can I book a cruise?
+
+- intent: Conf_destination
+  examples: |
+   - I want to go to spain
+   - Spain
+   - I want cruise to Spain
+
+- intent: Conf_duration
+  examples: |
+   - I want to go for a month
+   - I want to travel for a month
+   - one month
+
+- intent: room_book
+  examples: |
+   - I want a suite
+   - I would like to stay in a suite
+   - Suite room please
+
+- intent: bed_conf
+  examples: |
+   - I need 6 beds
+   - I would like 6 beds
+   - 6 beds
+

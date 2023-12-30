@@ -1,0 +1,26 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: booking a booking cruise
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Booking_cruise
+  - action: utter_Conf_destination
+  - intent: Conf_destination
+  - action: utter_Conf_duration
+  - intent: Conf_duration
+  - action: utter_room_book
+  - intent: room_book
+  - action: utter_bed_conf
+  - intent: bed_conf
+  - action: utter_confirm
+  - intent: affirm
+  - action: utter_pers_info
+

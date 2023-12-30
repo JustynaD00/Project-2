@@ -1,0 +1,52 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - Booking_cruise
+  - Conf_destination
+  - Conf_duration
+  - room_book
+  - bed_conf
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How may i help you?"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: " Glad youre okay "
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_Conf_destination:
+  - text: "Amazing, lets get you started, firstly, where would you like to go?"
+
+  utter_Conf_duration:
+  - text: "Amazing, and how long do you want to travel for?"
+
+  utter_room_book:
+  - text: "Great! And what sort of room would you like?"
+
+  utter_bed_conf:
+  - text: "And how many beds do you need?"
+
+  utter_confirm:
+  - text: "That is everything, would you like to make the booking?"
+
+  utter_pers_info:
+  - text: "Brilliant, please confirm your full name and your date of birth"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
