@@ -1,3 +1,4 @@
+FOLDER STRUCTURE
 .
 ├── ...
 ├── Face Recognition System                    # This is the facial recognition system for the face detection and recognition. 
