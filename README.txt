@@ -9,10 +9,10 @@
 
 .
 ├── ...
-├── Chatbot                    # This is the facial recognition system for the face detection and recognition. 
-│   ├── Rasa_Chatbot_Project1           # This is the final code that we chose for our face recognition and detection.
-│   ├── domain final        # This is the manual evaluation of the various models
-│   └── nlu final   
-    └── stories final # These are the images we used to test the system.
+├── Chatbot                    # This is the folder containing the code and data files for the chatbot
+│   ├── Rasa_Chatbot_Project1           # This is the final code that we chose for our chatbot.
+│   ├── domain final        # This is the domain file for the chatbot
+│   └── nlu final            # This is the nlu file for the chatbot
+    └── stories final     # This is the stories file for the chatbot.
 └── ...
 
