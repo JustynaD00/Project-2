@@ -1,0 +1,237 @@
+
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: thankyou
+  examples: |
+    - thank you
+    - thanks
+    - tia
+    - cheers
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: Booking_cruise
+  examples: |
+   - I would like to book a cruise
+   - I want to go on a cruise
+   - Book a cruise
+   - Can I book a cruise?
+
+- intent: Conf_destination_1
+  examples: |
+   - I want to go to France
+   - France
+   - I want to take a cruise to France
+
+- intent: Conf_destination_2
+  examples: |
+   - I want to go to Norway
+   - Norway
+   - I want to take a cruise to Norway
+
+- intent: Conf_destination_3
+  examples: |
+   - I want to go to Croatia
+   - Croatia
+   - I want to take a cruise to Croatia
+
+- intent: Conf_destination_4
+  examples: |
+   - I want to go to Greece
+   - Greece
+   - I want to take a cruise to Greece
+
+- intent: Conf_destination_5
+  examples: |
+   - I want to go to Thailand
+   - Thailand
+   - I want to take a cruise to Thailand
+
+- intent: Conf_destination_6
+  examples: |
+   - I want to go to China
+   - China
+   - I want to take a cruise to China
+
+- intent: Conf_destination_7
+  examples: |
+   - I want to go to Japan
+   - Japan
+   - I want to take a cruise to Japan
+
+- intent: Conf_destination_8
+  examples: |
+   - I want to go to Florida
+   - Florida
+   - I want to take a cruise to Florida
+
+- intent: Conf_destination_9
+  examples: |
+   - I want to go to Hawaii
+   - Hawaii
+   - I want to take a cruise to Hawaii
+
+- intent: Conf_destination_10
+  examples: |
+   - I want to go to Canada
+   - Canada
+   - I want to take a cruise to Canada
+
+- intent: Conf_duration_month
+  examples: |
+   - I want to go for a month
+   - I want to travel for a month
+   - one month
+   - for one month please
+
+- intent: Conf_duration_1week
+  examples: |
+   - I want to go for a week
+   - I want to travel for a week
+   - one week
+   - a week
+   - for a week please
+
+- intent: Conf_duration_2week
+  examples: |
+   - I want to go for 2 weeks
+   - I want to travel for two weeks
+   - 2 weeks
+   - two weeks
+   - for 2 weeks
+
+
+- intent: room_book_interior
+  examples: |
+   - I want an interior room
+   - I would like to stay in a interior
+   - interior room please
+   - interior
+   - I want an interior room
+   - Interior room will be just fine
+
+- intent: room_book_outsideview
+  examples: |
+   - I want a room with outside view
+   - I would like to stay in outside view room please
+   - outside view room please
+   - outside view
+   - room with outside view
+   - I want an outisdie view
+
+- intent: room_book_balcony
+  examples: |
+   - I want a room with a balcony
+   - I would like to stay in a balcony room please
+   - balcony room please
+   - balcony
+   - room with a balcony please
+   - I want a balcony in my room
+
+- intent: room_book_suite
+  examples: |
+   - I want a suite
+   - I would like to stay in a suite room please
+   - suite please
+   - suite
+   - suite room would be great
+   - I would like  a suite room
+   - I want a suite
+
+- intent: bed_conf_family
+  examples: |
+   - I would like a family room please
+   - Family room
+   - I need a family room
+   - The family one
+
+- intent: bed_conf_king
+  examples: |
+   - I would like a king size bed
+   - I need a king
+   - King Size
+
+- intent: bed_conf_2double
+  examples: |
+   - I need two beds
+   - The double beds option
+   - Two double beds please
+
+- intent: confirm_name
+  examples:  |
+   - My name is Justyna Dobersztajn
+   - My full name is Will Smith
+   - My first name is Lydia and my last name is Brown
+   - Thomas Townsend
+
+- intent: confirm_email
+  examples:  |
+   - jdobersz@bradford.ac.uk
+   - domain99@gmail.com
+   - uswat00@outlook.co.uk
+   - my email address is shabbir111@yahoo.com
+
+- intent: confirm_upload
+  examples:  |
+   - image uploaded
+   - image upload complete
+
+- intent: cancel_booking
+  examples:  |
+   - I would like to cancel my booking
+   - Booking cancellation
+   - Policy for cancelling a booking

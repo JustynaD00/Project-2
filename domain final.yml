@@ -1,0 +1,195 @@
+
+
+version: "3.1"
+
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - Booking_cruise
+  - Conf_destination_1
+  - Conf_destination_2
+  - Conf_destination_3
+  - Conf_destination_4
+  - Conf_destination_5
+  - Conf_destination_6
+  - Conf_destination_7
+  - Conf_destination_8
+  - Conf_destination_9
+  - Conf_destination_10
+  - Conf_duration_1week
+  - Conf_duration_2week
+  - Conf_duration_month
+  - room_book_interior
+  - room_book_outsideview
+  - room_book_balcony
+  - room_book_suite
+  - bed_conf_2double
+  - bed_conf_family
+  - bed_conf_king
+  - confirm_email
+  - confirm_name
+  - confirm_upload
+  - cancel_booking
+  - thankyou
+
+responses:
+
+  utter_greet:
+  - text: "Hello! Welcome to Royal Caribbean!
+  \n\n
+  My name is SunShine, how may I assist you today?"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: " Glad you're okay "
+
+  utter_start_again:
+  - text: "Would you like to start the booking again?"
+
+  utter_goodbye:
+  - text: "Thank you and goodbye for now."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_anythingelse:
+  - text: "Is there anything else I can help with?"
+
+  utter_Conf_destination:
+  - text: "Amazing, lets get you started! Firstly, where would you like to go?
+\n\n
+Here are some of our popular destinations:
+\n\n
+Europe:
+\n\n
+      1) France
+\n\n
+      2) Norway
+\n\n
+      3) Croatia
+\n\n
+      4) Greece
+\n\n
+
+Asia:
+\n\n
+      1) Thailand
+\n\n
+      2) China
+\n\n
+      3) Japan
+\n\n
+
+
+North America:
+\n\n
+      1) Florida
+\n\n
+      2) Hawaii
+\n\n
+      3) Canada
+
+\n\n
+
+Or go to the following link to see the full list of our destinations: https://www.royalcaribbean.com/gbr/en/cruise-destinations?
+"
+  utter_Conf_duration:
+  - text: "Amazing, and how long do you want to travel for?
+  You can pick from the following:
+
+  1 week
+
+  2 weeks
+
+  A month "
+
+  utter_room_book:
+  - text: "Great! And what sort of room would you like?
+
+  We offer the following options:
+  \n\n
+  \n\n
+  Interior- \n\n
+  Our Interior staterooms include a wide array of amenities for your whole family to enjoy.
+  \n\n
+  \n\n
+  Outside view - \n\n
+  Savour the seaside and snapshots of landscapes from shore to shore.
+  \n\n
+  \n\n
+  Balcony - \n\n
+  Claim your slice of paradise with balcony views just outside your door.
+  \n\n
+  \n\n
+  Suite - \n\n
+  Enjoy expansive accommodation that takes luxury to the next level.
+  "
+
+  utter_bed_conf:
+  - text: "And how many beds do you need? We offer different options!
+  \n\n
+
+  King size bed - one king size bed, perfect for a couple or a solo traveller!
+  \n\n
+
+  Double room - 2 double beds, ideal for friends and families!
+  \n\n
+
+  Family room - Includes 1 king size bed and 4 single beds,
+  with an extra double sofa bed
+  "
+
+  utter_pers_info:
+  - text: "please confirm you details"
+
+  utter_confirm:
+  - text: "Great! We have found you several offers starting from £300!
+\n\n
+  Would you like to proceed with the registration to book your dream cruise?"
+
+  utter_inform_of_reg_process:
+  - text: "We will need the following:
+
+  Your full name, email address and a picture of yourself.
+
+  Once we have these information we will send you an email with the offers and
+  the log in details so that you can finish the booking and make the payment.
+
+  To view terms and coditions and information on how we may use your information
+  visit:
+
+https://www.royalcaribbean.com/gbr/en/terms-and-conditions/digital-terms-of-use-and-end-user-license-agreement
+
+  If you have all these details and would like to continue please say 'yes'
+  "
+
+  utter_info_name:
+  - text: "Brilliant, what is your full name please?"
+
+  utter_info_email:
+  - text: "Thank you, and what is your email address please?"
+
+  utter_upload_picture:
+  - text: "Lastly, please take a well-lit selfie facing forward with a neutral
+  expression, ensuring your entire face is visible and upload it to the link below;
+\n\n
+  Before you upload the picture please make sure your image name is your firstname_lastname :
+  https://uswatyusuf.github.io/Project2A23/
+\n\n
+  Once you have uploaded the image please say - image upload complete "
+
+  utter_thatseverything:
+  - text: " Thank you. That is everything. You should receieve an email from us shortly confirming your offers.
+\n\n
+  Is there anything else I can help you with today?"
+
+  utter_cancellation_info:
+  - text: "To view our cancellation Policy or to find out how to cancel please visit :
+  https://www.royalcaribbean.com/gbr/en/faq/topics/reservation-payment-cancellation-policy
+  "
