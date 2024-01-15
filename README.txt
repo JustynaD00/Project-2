@@ -1,7 +1,7 @@
 FOLDER STRUCTURE
 .
 ├── ...
-├── Face Recognition System                # This is the facial recognition system for the face detection and recognition. 
+├── Face Recognition System                # This is the folder containing the code and data files for the facial recognition system 
 │   ├── Facial Recognition Code           # This is the final code that we chose for our face recognition and detection.
 │   ├── Evaluation of models used        # This is the manual evaluation of the various models
 │   └── Test images                      # These are the images we used to test, validate and evaluate the system.
